@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "forza";
+    src:url("assets/forza-black.woff2");
+}
+
+#content_header{
+    position: relative;
+    left: 220px;
+    width: 1020px;
+    height: 25px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+#text_header{
+    position: absolute;
+    left: 373px;
+    top: 23px;
+    height: 17px;
+    width: 37px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.logo{
+    position: relative;
+    left: 220px;
+    top: 11px;
+    height: 24px;
+    width: 126px;
+}
+
+#header{
+    width: 1440px;
+    height: 45px;
+    background-image: linear-gradient(to right, #FF690F, #E8381B);
+}
+
+#frame{
+    width: 1440px;
+    height: 2076px;
+    background: #FAFAFC;
+}
+
+#title{
+    position: absolute;
+    left:220px;
+    top:93px;
+    height: 56px;
+    width: 775px;
+    font-size: 44px;
+    font-family: forza;
+}
+
+.options{
+    width: 239px;
+    max-height: 150px;;
+    background: #F1F4F7;
+    z-index: 10;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F1F4F7; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #51697A; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+.choice{
+    display: flex;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF
+}
+
+.options div:hover{
+    background: #D9E1E8;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    width: 239px;
+    height: 54px;
+    background: #F1F4F7;
+    border-radius: 2px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+select.option{
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #131A1F;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 6px;
+    text-overflow: '';
+    border: none;
+}
+
+
+#search{
+    position: absolute; left: 948px; top: 181px; border-radius: 2px;
+    width: 54px;
+    height: 54px;
+    background-image: linear-gradient(to right, #FF690F, #EE4719);
+}
+
+.dd_text{
+    position: absolute;
+    left: 12px;
+    top: 19px;
+    font-family: HelveticaNeue;
+    color: #131A1F;
+    font-size: 14px;
+}
+
+
+#location{
+    position: absolute;
+    left: 220px;
+    top: 242px;
+    width: 782px;
+    height: 431px;
+    background: url('assets/courchevel-34083.jpg')
+}
+
+
+.search_icon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 34px;
+    height: 34px;
+    fill: #FFFFFF;
+}
+
+#location_text{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: forza;
+    font-size: 20px;
+    width: 347px;
+    height: 40px;
+    left: 31px;
+    top: 367px;
+}
